@@ -18,6 +18,12 @@ If you're using bash or Docker Quickstart Terminal:
 
 docker run -it --rm --entrypoint "/run.sh" -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit
 
+After running this command, you may find something like,
+
+- http://(xxxxxxx or 127.0.0.1):8888/?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Copy this URL, modify it like, http://127.0.0.1:8888/?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx , open in your browser. You'll find a Jupyter notebook opening
+
 
 ## References
 - https://github.com/udacity/CarND-Term1-Starter-Kit
